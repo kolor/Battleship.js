@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang=en>
+<head>
+<title>Battleships</title>
+<link rel="stylesheet" href="http://cdn.airy.me/reset.css">
+<link rel="stylesheet" href="assets/ships.css">
+<link rel="stylesheet/less" href="assets/css3.less">
+</head>
+<body>
+<div class="wrap">
+	<div id="side">
+		<div class="title"><h1>Battleships</h1></div>
+		<div class="chat">
+			<h2>Chat</h2>
+			<div class="text"></div>
+			<input type="text">
+		</div>
+		<div class="lobby">
+			<h2>Lobby</h2>
+			<div class="games"></div>
+		</div>
+		<div class="newgame">
+			<h2>New Game</h2>
+			<span class="caption">Game title</span><br>
+			<input type="text"><br>
+			<button class="btn">Start game</button>	
+		</div>
+		<div class="leaders">
+			<h2>Leaders</h2>
+			
+		
+		</div>
+	</div>
+	<div id="main">
+		<div class="status">
+			<span class="info"></span>
+			<div class="buttons">
+				<button class="btn skip hide">Skip turn</button>
+				<button class="btn quit hide">Quit game</button>	
+			</div>
+		</div>
+		<div id="game">
+			<canvas id="c1" class="hide"></canvas>
+			<canvas id="c2" class="hide"></canvas>
+		</div>
+		<div class="social">
+			<div class="lt">
+				<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://apps.facebook.com/airyships" data-text="Battleships: HTML5 Facebook game -" data-count="horizontal" data-via="airyweb">Tweet</a>
+				<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+			<div class="clear"></div>	
+		</div>
+		
+	</div>
+	<div class="clear"></div>
+</div>
+<script src="http://cdn.airy.me/jquery.js"></script>
+<script src="http://cdn.airy.me/modernizr.js"></script>
+<script src="http://cdn.airy.me/less.js"></script>
+<script src="http://cdn.airy.me/php.js"></script>
+<script src="assets/ships.js"></script>
+</body>
+</html>
